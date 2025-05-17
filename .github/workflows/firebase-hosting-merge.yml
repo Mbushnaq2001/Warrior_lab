@@ -1,4 +1,4 @@
- name: Deploy to Firebase Hosting on merge
+name: Deploy to Firebase Hosting on merge
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.1'
+          flutter-version: '3.29.3'
           cache: false
 
       - name: Install Dependencies
