@@ -20,7 +20,7 @@ jobs:
       - name: Install Dependencies
         run: flutter pub get
 
-      - name: Build Web App
+      - name: Build Flutter Web App
         run: flutter build web
 
       - name: Deploy to Firebase Hosting
